@@ -11,6 +11,11 @@
     margin: 0 auto;
        
 }
+@media (max-width:768px) {
+    .container{
+        margin-top: 90px;
+    }
+}
 .container h1{
         width:100px;
         color: #173b6c;

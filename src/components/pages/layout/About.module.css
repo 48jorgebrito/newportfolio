@@ -12,6 +12,7 @@
 
     
 }
+
 .container h1{
         width:100px;
         color: #173b6c;
@@ -27,16 +28,25 @@
 }
 .description{
     width: 500px;
+    background-color: #173b6c;
     
 }
 .description p{
     line-height: 25px;
     font-size: 19px;
     padding-top: 15px;
+    width: 100%;
 }
 .box_description{
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding-top: 40px;
+}
+
+@media (max-width:768px) {
+    .box_description{
+        flex-direction: column;
+    }
+    
 }
