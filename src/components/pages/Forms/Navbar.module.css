@@ -1,0 +1,36 @@
+.navbar{
+    padding: 20px 40px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #a8a9b4;
+}
+
+.navbar li{
+    list-style: none;
+    font-family: "Poppins";
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #a8a9b4;
+    
+    
+}
+.navbar li:hover{
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.social_icons{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-right: 10px;
+    color: #a8a9b4;
+    
+    
+}
+.navbar li:hover > .social_icons{
+    
+    color: #149ddd;
+}
