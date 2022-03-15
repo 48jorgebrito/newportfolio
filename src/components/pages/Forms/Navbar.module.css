@@ -1,9 +1,9 @@
 .navbar{
     padding: 20px 40px;
-}
-.navbar a{
-    text-decoration: none;
-    color: #a8a9b4;
+    
+    margin-bottom: 11px;
+    
+     
 }
 
 .navbar li{
@@ -11,7 +11,7 @@
     font-family: "Poppins";
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     color: #a8a9b4;
     
     
@@ -32,5 +32,11 @@
 }
 .navbar li:hover > .social_icons{
     
+    color: #149ddd;
+}
+.navbar .active {
+    color: #ffffff;
+}
+.active > .social_icons{
     color: #149ddd;
 }

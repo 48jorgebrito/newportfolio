@@ -9,6 +9,7 @@
     padding: 50px 0;
     background-color: #ffffff;
     margin: 0 auto;
+    border-bottom: 1px solid rgb(179, 176, 176);
 
     
 }
@@ -28,7 +29,7 @@
 }
 .description{
     width: 500px;
-    background-color: #173b6c;
+    
     
 }
 .description p{
