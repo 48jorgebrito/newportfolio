@@ -4,6 +4,9 @@
     margin-left: 300px;
   
 }
+ html{
+    scroll-behavior: smooth;
+ }
 @media (max-width:1080px) {
     .container{
         width: 100%;

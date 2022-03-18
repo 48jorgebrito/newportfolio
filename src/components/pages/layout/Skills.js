@@ -11,7 +11,7 @@ import Js_image from '../../images/javascript-original.svg'
 
 export default function Skills(){
     return(
-        <div className={styles.container}>
+        <div id='skills' className={styles.container}>
             <h1>Skills</h1>
            <div className={styles.list}></div>
            

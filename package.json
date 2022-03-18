@@ -1,5 +1,6 @@
 {
   "name": "portfolio2",
+  "homepage": "https://jorgeramirobritoportfolio.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

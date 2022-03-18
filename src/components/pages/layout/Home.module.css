@@ -51,3 +51,20 @@
         display: flex;
     }
 }
+@media (max-width:768px) {
+    .container {
+        
+        background-attachment:local;
+    
+    }
+    .container h1{
+        font-size: 3rem;
+        background-attachment:local;
+    
+    }
+    .container p{
+        font-size: 1rem;
+        color: #fff;
+        
+    }
+}

@@ -11,7 +11,7 @@
     font-family: "Poppins";
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: #a8a9b4;
     
     
@@ -34,9 +34,9 @@
     
     color: #149ddd;
 }
-.navbar .active {
+.navbar #active {
     color: #ffffff;
 }
-.active > .social_icons{
+ #active > .social_icons{
     color: #149ddd;
 }

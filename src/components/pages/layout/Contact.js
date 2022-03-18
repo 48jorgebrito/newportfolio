@@ -4,9 +4,9 @@ import {BsPhone} from 'react-icons/bs'
 import {TiLocationOutline} from 'react-icons/ti'
 export default function Contact(){
     return(
-        <div className={styles.container}>
+        <div id='contato' className={styles.container}>
             <h1>Contato</h1>
-           <div className={styles.list}></div>
+            <div className={styles.list}></div>
             
             <div className={styles.box_contact}>
                 <div className={styles.box_contact_left}>

@@ -26,15 +26,20 @@ margin-left: 20px;
     align-items: center;
     padding: 40px 20px;
     justify-content: space-between;
-    
+    width: 100%;
+}
+@media (max-width:768px) {
+    .box_contact{
+        flex-direction: column;
+    }
 }
 .box_contact_left{
-    width: 500px;
-    height: 250px;
+    max-width: 500px;
     padding: 0 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
     
    
 }
@@ -42,6 +47,8 @@ margin-left: 20px;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    
+    
 }
 .contact_single h2{
     font-weight: 300;
@@ -61,7 +68,8 @@ margin-left: 20px;
 
 }
 .box_contact_rigth{
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
     display: flex;
     flex-direction: column;
     padding: 0 10px;
@@ -70,12 +78,7 @@ margin-left: 20px;
     
    
 }
-.box_contact_rigth{
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-   
-}
+
 .input{
     padding: 10px;
     font-size: 17px;

@@ -2,7 +2,7 @@ import styles from './About.module.css'
 import Developer from '../../images/developer.jpg'
 export default function About(){
     return(
-        <div className={styles.container}> 
+        <div id='sobre' className={styles.container}> 
            <h1>Sobre</h1>
            <div className={styles.list}></div>
             
