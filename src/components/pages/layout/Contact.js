@@ -49,11 +49,11 @@ export default function Contact(){
                     
                 </div>
                 
-                <form className={styles.box_contact_rigth}>
-                        <input className={styles.input} type="text" placeholder='Nome'/>
-                        <input className={styles.input} type="email" placeholder='Email'/>
-                        <textarea className={styles.input} placeholder='Mensagem'></textarea>
-                        <input className={styles.btn} type='submit'/>
+                <form className={styles.box_contact_rigth} action="https://formsubmit.co/jorgeramirobrito19@gmail.com" method='POST'>
+                        <input className={styles.input} type="text" name='name' placeholder='Nome' required/>
+                        <input className={styles.input} type="email"  name='email' placeholder='Email' required/>
+                        <textarea className={styles.input} name='text' placeholder='Mensagem' required></textarea>
+                        <input className={styles.btn} type='submit' name='enviar'/>
                  </form>
                 
             </div>

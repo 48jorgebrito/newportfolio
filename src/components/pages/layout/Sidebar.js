@@ -1,6 +1,7 @@
 import styles from './sidebar.module.css'
 import PhotoPerfil from '../../images/perfil.jpg'
 import { useState } from 'react'
+
 import {FiMenu} from 'react-icons/fi'
 import {AiOutlineClose} from 'react-icons/ai'
 
@@ -33,8 +34,9 @@ export default function Sidebar(){
                         return(
                             <div className={styles.social_liks}  key={index}
                                 onClick={()=>{
-                                window.location.href = val.redirect
-                            }} >
+                                
+                                    window.location.href = val.redirect
+                                 }}>
                                 {val.socialIcons}
                             </div> 
                         )
@@ -50,6 +52,9 @@ export default function Sidebar(){
                         return(
                             <li key={key} onClick={()=>{
                                 window.location.href = val.id
+                                if(openMenu == true){
+                                    setOpenMenu(!openMenu)
+                                }
                             }}>
                                 <div className={`${styles.social_icons} `}>
                                     {val.icon }
