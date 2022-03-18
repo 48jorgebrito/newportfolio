@@ -50,22 +50,8 @@
     font-size: 26px;
 }
 
-.box_p{
-    
-    position: absolute;
-    width: 100%;
-    top: calc(100% - 50px);
-    border-top: 1px solid #212431;
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.p{
-    color: #fff;
-    font-size: 10px;
-    text-align: center;
-}
+
+/*--------menu-------------*/
 
 .menu{
     width: 50px;
@@ -95,6 +81,8 @@
         
     }
 }
+/*--------social liks--------------*/
+
 .containerSocialLiks{
     display: flex;
     justify-content: space-around;
@@ -118,4 +106,66 @@
 .social_liks:hover{
     cursor: pointer;
     background-color: #149ddd;
+}
+
+/*--------navBar--------*/
+.navbar{
+    padding: 20px 40px;
+    margin-bottom: 11px;
+    
+     
+}
+
+.navbar li{
+    list-style: none;
+    font-family: "Poppins";
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #a8a9b4;
+    
+    
+}
+.navbar li:hover{
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.social_icons{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-right: 10px;
+    color: #a8a9b4;
+    
+    
+}
+.navbar li:hover > .social_icons{
+    
+    color: #149ddd;
+}
+.navbar #active {
+    color: #ffffff;
+}
+ #active > .social_icons{
+    color: #149ddd;
+}
+
+/*-----------footer------------*/
+
+footer{
+    
+    position: absolute;
+    width: 100%;
+    top: calc(100% - 50px);
+    border-top: 1px solid #212431;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer p{
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
 }

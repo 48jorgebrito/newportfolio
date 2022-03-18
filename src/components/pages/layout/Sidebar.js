@@ -1,11 +1,11 @@
 import styles from './sidebar.module.css'
 import PhotoPerfil from '../../images/perfil.jpg'
-import Navbar from '../Forms/Navbar'
 import { useState } from 'react'
 import {FiMenu} from 'react-icons/fi'
 import {AiOutlineClose} from 'react-icons/ai'
 
 import { SocialLiks } from '../Forms/SideBarData'
+import { BtnNavBar } from '../Forms/SideBarData'
 
 export default function Sidebar(){
     const [openMenu, setOpenMenu] = useState (false)
@@ -44,12 +44,30 @@ export default function Sidebar(){
                 </div>
             </div>
 
-            <Navbar />
+            <nav className={styles.navbar}>
+                <ul>
+                    {BtnNavBar.map((val, key)=>{
+                        return(
+                            <li key={key} onClick={()=>{
+                                window.location.href = val.id
+                            }}>
+                                <div className={`${styles.social_icons} `}>
+                                    {val.icon }
+                                </div>
+                                <div>
+                                    {val.nome }
+                                </div> 
+                            </li>
+                    )
+                    })} 
+                    
+                </ul> 
+            </nav>
 
-            <div className={styles.box_p}>
-                <p className={styles.p}>Todos os direitos reservados</p>
-                <p className={styles.p}>Ramiro Brito 2022.</p>
-            </div>
+            <footer className={styles.box_p}>
+                <p>Todos os direitos reservados</p>
+                <p>Ramiro Brito 2022.</p>
+            </footer>
             
         </div>
     )
