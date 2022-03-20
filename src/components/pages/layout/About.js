@@ -22,7 +22,9 @@ export default function About(){
                     <p> 
                         Gosto de ser desafiado a resolver problemas usando logica e por esse motivo escolhi ser programador.  
                     </p>
-
+                    <button className={styles.bnt} onClick={()=>{ window.location.href = "https://jorgeramirobritoportfolio.com/curriculo/"}}>
+                        Currículo
+                     </button>
                 </div>
 
             </div>   

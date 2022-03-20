@@ -96,12 +96,10 @@ margin-left: 20px;
     cursor: pointer;
 }
 .btn:hover{
-    padding: 10px;
     color: #149ddd;
     border: 2px solid #149ddd;
     background-color: #ffffff;
-    font-size: 20px;
-    cursor: pointer;
+   
 }
 textarea{
     resize: none;
