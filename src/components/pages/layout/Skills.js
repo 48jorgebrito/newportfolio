@@ -18,7 +18,7 @@ export default function Skills(){
            <div className={styles.box_skills}>
                 <Tecnologics 
                     image={Html_image} 
-                    text="HTMl é uma linguagem de marcação utilizada na construção de páginas na Web.
+                    text="HTML é uma linguagem de marcação utilizada na construção de páginas na Web.
                     Documentos HTML podem ser interpretados por navegadores."
                     color="html_border"/>
                 <Tecnologics 

@@ -65,6 +65,7 @@
     .container p{
         font-size: 1rem;
         color: #fff;
+        transition-delay: 2s;
         
     }
 }
